@@ -1,0 +1,43 @@
+
+
+.body
+{
+    background: black;
+    text-align: center;
+}
+
+.button {
+    width:90px;
+    text-align:center;
+    display:block;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    border: #000000 1px solid;
+    color: #000000;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 20px auto;
+    transition: .5s;
+    border-radius: 0px;
+}
+h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 60px;
+    font-family: "Yu Gothic UI Semibold";
+    margin: 0;
+}
+.button:hover{
+    width:225px;
+    border:1px solid teal;
+    margin: 20px auto;
+    opacity:1;
+
+}
+
+.button:active{
+    background: white;
+}
